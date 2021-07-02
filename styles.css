@@ -77,14 +77,14 @@ p.info {
   color: rgb(255, 249, 186);
   animation-name: prono;
   animation-duration: 6;
-  animation-delay: 3s;
+  animation-delay: 3.5s;
 }
 
 .button3 {
   color: rgb(255, 189, 216);
   animation-name: prono;
   animation-duration: 6;
-  animation-delay: 3s;
+  animation-delay: 4s;
 }
 
 @keyframes prono {
