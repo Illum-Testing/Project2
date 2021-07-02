@@ -1,19 +1,20 @@
 body {
   background-image: linear-gradient(to bottom left, skyblue, white);
+  opacity 0.5
 }
 
 h1 {
-  color: black;
+  color: white;
   text-align:center;
   font-family: helvetica;
   font-size: 250%;
 }
 
 p.info {
-  color: black;
+  color: white;
   font-family: helvetica;
   font-size: 100%;
-  border-left: 3px solid white;
+  border-left: 2px solid white;
   text-align:center;
   margin-left: 250px;
   margin-right: 250px;
@@ -22,11 +23,9 @@ p.info {
 
 p.right {
   margin: 0px;
-  color: black;
+  color: white;
   text-align:right;
   font-family: helvetica;
   font-size: 100%;
-  border: 2px inset white;
-  margin-left: 500px;
-  margin-right: 10px
+  border: 2px solid white;
 }
