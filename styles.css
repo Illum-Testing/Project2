@@ -14,11 +14,6 @@ body {
   from {font-size: 100%;}
   to {font-size: 250%;}
 }
-
-@keyframes perm {
-	0% {font-size:250%;}
-	60% {font-size:270%;}
-	100% {font-size:250%;}
 	
 h1 {
   color: white;
@@ -27,7 +22,6 @@ h1 {
   font-size: 100%;
   text-shadow: 4px 4px 2px skyblue;
   animation: hea 5s ease-in 2s 1;
-	animation: perm 10s ease-in 7s infinite
 }
 
 @keyframes infor {
@@ -39,7 +33,7 @@ p.info {
   color: white;
   font-family: helvetica;
   font-size: 100%;
-  border-left: 2px solid white;
+  border-bottom: 2px solid white;
   text-align:center;
   margin-left: 40%;
   margin-right: 40%;
