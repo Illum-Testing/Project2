@@ -19,9 +19,11 @@ p.info {
   font-family: helvetica;
   font-size: 100%;
   border-left: 3px ridge purple;
+  margin-left: 80px
 }
 
 p.right {
+  margin: 0px;
   color: black;
   text-align:right;
   font-family: helvetica;
