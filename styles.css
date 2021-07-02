@@ -1,18 +1,18 @@
 body {
-  background-image: linear-gradient(to bottom left, skyblue, white)
-  opacity: 0.5
+  background-image: linear-gradient(to bottom left, skyblue, white);
+  opacity: 0.5;
 }
 
 h1 {
-  color: black
-  text-align:center
-  font-family: helvetica
-  font-size: 250%
+  color: black;
+  text-align:center;
+  font-family: helvetica;
+  font-size: 250%;
 }
 
 p.info {
-  color: black
-  text-align:center
-  font-family: helvetica
-  font-size: 100%
+  color: black;
+  text-align:center;
+  font-family: helvetica;
+  font-size: 100%;
 }
