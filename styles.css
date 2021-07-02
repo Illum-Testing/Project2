@@ -12,8 +12,8 @@ body {
 }
 
 @keyframes header {
-  from {font-size: 250%;}
-  to {font-size: 400%;}
+  from {font-size: 100%;}
+  to {font-size: 250%;}
 }
 
 h1 {
