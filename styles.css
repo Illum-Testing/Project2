@@ -9,7 +9,8 @@ h1 {
   font-family: helvetica;
   font-size: 250%;
   border: 1px inset black;
-  background-image: linear-gradient(to bottom left, red, orange);
+  background-color: white
+    opacity: 0.3
 }
 
 p.info {
