@@ -8,8 +8,8 @@ h1 {
   text-align:center;
   font-family: helvetica;
   font-size: 250%;
-  border: 4px ridge purple
-    opacity: 0.3
+  border: 4px ridge purple;
+    opacity: 0.3;
   background-color: white;
     opacity: 0.3;
 }
