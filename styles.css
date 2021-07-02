@@ -1,16 +1,19 @@
 @keyframes b {
-  0% {background-image: linear-gradient(to bottom left, skyblue, white);}
-  50% {background-image: linear-gradient(to bottom left, white, skyblue);}
-  100% {background-image: linear-gradient(to bottom left, skyblue, white);}
+  0% {
+    background-position: 0% 50%
+} 
+  50% {
+    background-position: 100% 50%
+} 
+  100% {
+    background-position: 0% 50%
 } 
 
 html {
   background-image: linear-gradient(to bottom left, skyblue, white);
   opacity 0.5;
   background-size: cover;
-  animation-name: b;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+  animation: b 15s ease infinite
 }
 
 @keyframes header {
