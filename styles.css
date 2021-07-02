@@ -13,7 +13,7 @@ p.info {
   color: black;
   font-family: helvetica;
   font-size: 100%;
-  border-left: 3px ridge white;
+  border-left: 3px solid white;
   text-align:center;
   margin-left: 250px;
   margin-right: 250px;
@@ -26,6 +26,7 @@ p.right {
   text-align:right;
   font-family: helvetica;
   font-size: 100%;
-  border: 2px inline white;
+  border: 2px inset white;
   margin-left: 500px;
+  margin-right: 10px
 }
