@@ -48,21 +48,25 @@ p.info {
 
 .button {
   background-color: none; 
-  border: none;
+  padding: 4px 8px;
+  border: 2px solid white;
   color: white;
-  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 2px 1px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border-radius: 12px;
+  animation-name: prono;
+  animation-duration: 6;
+  animation-delay: 3s;
 }
 
 .button1 {
   background-color: none;
-  border: 2px solid black;
+  border: 2px solid white;
   color: white;
 }
 
@@ -73,7 +77,7 @@ p.info {
 
 .button2 {
   background-color: none;
-  border: 2px solid black;
+  border: 2px solid white;
   color: white;
 }
 
@@ -82,9 +86,9 @@ p.info {
   color: rgb(255, 233, 0);
 } 
 
-.button2 {
+.button3 {
   background-color: none;
-  border: 2px solid black;
+  border: 2px solid white;
   color: white;
 }
 
