@@ -9,9 +9,8 @@ h1 {
   font-family: helvetica;
   font-size: 250%;
   border: 4px ridge purple;
-    opacity: 0.3;
   background-color: white;
-    opacity: 0.3;
+  background-opacity: 0.3;
 }
 
 p.info {
@@ -20,7 +19,6 @@ p.info {
   font-family: helvetica;
   font-size: 100%;
   border-left: 3px ridge purple;
-    opacity: 0.3;
 }
 
 p.right {
