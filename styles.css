@@ -64,6 +64,11 @@ p.info {
   animation-delay: 3s;
 }
 
+@keyframes prono {
+	from {top: 90px; opacity: 0;}
+  	to {top: 0px; opacity: 100;}
+}
+
 .button1:hover {
   background-color: rgb(186, 219, 255);
   color: rgb(0, 123, 255);
