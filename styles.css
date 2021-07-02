@@ -50,7 +50,7 @@ p.info {
 .button1 {
   background-color: none;
   border: 2px solid white;
-  text-color: white;
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -64,7 +64,7 @@ p.info {
 .button2 {
   background-color: none;
   border: 2px solid white;
-  text-color: white;
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -78,7 +78,7 @@ p.info {
 .button3 {
   background-color: none;
   border: 2px solid white;
-  text-color: white;
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -97,13 +97,13 @@ p.info {
 
 .button1:hover {
   background-color: rgb(186, 219, 255);
-  text-color: rgb(0, 123, 255);
+  color: rgb(0, 123, 255);
 }
 .button2:hover {
   background-color: rgb(255, 249, 186);
-  text-color: rgb(255, 233, 0);
+  color: rgb(255, 233, 0);
 }
 .button3:hover {
   background-color: rgb(255, 189, 216);
-  text-color: rgb(255, 0, 104);
+  color: rgb(255, 0, 104);
 }
