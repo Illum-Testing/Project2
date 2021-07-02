@@ -1,6 +1,14 @@
+@keyframes b {
+  from {background-image: linear-gradient(to bottom left, skyblue, white);}
+  to {background-image: linear-gradient(to bottom left, white, skyblue);}
+} 
+
 body {
   background-image: linear-gradient(to bottom left, skyblue, white);
-  opacity 0.5
+  opacity 0.5;
+  animation-name: b;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes header {
