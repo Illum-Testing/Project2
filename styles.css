@@ -47,9 +47,14 @@ p.info {
 }
 
 .button {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
+  background-color: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .button:hover {
@@ -58,9 +63,14 @@ p.info {
 }
 
 .button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
+  background-color: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .button1:hover {
@@ -69,9 +79,14 @@ p.info {
 }
 
 .button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
+  background-color: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .button2:hover {
