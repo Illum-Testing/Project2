@@ -1,18 +1,19 @@
-@keyframes b {
-  0% {
-    background-position: 0% 50%;
-} 
-  50% {
-    background-position: 100% 50%;
-} 
-  100% {
-    background-position: 0% 50%;
-} 
+body {
+	background: linear-gradient(-45deg, skyblue, white, skyblue, white);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
 
-html {
-  background-image: linear-gradient(to bottom right, skyblue, white);
-  background-size: 400% 400%;
-  animation: b 15s ease infinite;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 @keyframes hea {
