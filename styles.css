@@ -1,14 +1,16 @@
 body {
-	background: linear-gradient(-45deg, skyblue, purple, skyblue, purple);
-	background-size: 400% 400%;
+	background-color: skyblue
+	background-size: cover;
 	background-repeat: no-repeat;
 	animation: gradient 30s ease infinite;
 }
 
 @keyframes gradient {
-	0% {background-position: 0% 50%;}
-	50% {background-position: 100% 50%;}
-	100% {background-position: 0% 50%;}
+	0% {background-color: skyblue;}
+	25% {background-color: yellow;}
+	50% {background-color: rgb(181, 31, 61);}
+	75% {background-color: rgb(29, 0, 54);}
+	100% {background-color: skyblue;}
 }
 
 @keyframes hea {
