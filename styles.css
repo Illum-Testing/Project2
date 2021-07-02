@@ -47,7 +47,7 @@ p.info {
 }
 
 .button {
-  background-color: none; 
+  background-color: black; 
   padding: 4px 8px;
   border: 2px solid white;
   color: white;
@@ -64,33 +64,15 @@ p.info {
   animation-delay: 3s;
 }
 
-.button1 {
-  background-color: none;
-  border: 2px solid white;
-  color: white;
-}
-
 .button1:hover {
   background-color: rgb(186, 219, 255);
   color: rgb(0, 123, 255);
-}
-
-.button2 {
-  background-color: none;
-  border: 2px solid white;
-  color: white;
 }
 
 .button2:hover {
   background-color: rgb(255, 249, 186);
   color: rgb(255, 233, 0);
 } 
-
-.button3 {
-  background-color: none;
-  border: 2px solid white;
-  color: white;
-}
 
 .button3:hover {
   background-color: rgb(255, 189, 216);
