@@ -4,11 +4,10 @@
   100% {background-image: linear-gradient(to bottom left, skyblue, white);}
 } 
 
-body {
+html {
   background-image: linear-gradient(to bottom left, skyblue, white);
   opacity 0.5;
-  background-position: right bottom, left top;
-  background-repeat: no-repeat;
+  background-size: cover;
   animation-name: b;
   animation-duration: 10s;
   animation-iteration-count: infinite;
