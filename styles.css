@@ -62,7 +62,7 @@ p.info {
   animation-delay: 3s;
 }
 
-@keyframe prono {
+@keyframes prono {
 	from {top: 90px; opacity: 0;}
   	to {top: 0px; opacity: 100;}
 }
