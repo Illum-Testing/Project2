@@ -12,11 +12,11 @@ h1 {
 
 p.info {
   color: black;
-  text-align:center;
   font-family: helvetica;
   font-size: 100%;
   border-left: 3px ridge purple;
   border-position: relative;
+  text-align:center;
   
 }
 
