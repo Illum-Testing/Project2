@@ -16,3 +16,10 @@ p.info {
   font-family: helvetica;
   font-size: 100%;
 }
+
+p.right {
+  color: black;
+  text-align:right;
+  font-family: helvetica;
+  font-size: 100%;
+}
