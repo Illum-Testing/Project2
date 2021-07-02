@@ -47,7 +47,35 @@ p.info {
   animation-fill-mode: both; 
 }
 
-.button {
+.button1 {
+  background-color: none;
+  border: 2px solid white;
+  text-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  animation-name: prono;
+  animation-duration: 6;
+  animation-delay: 3s;
+}
+.button2 {
+  background-color: none;
+  border: 2px solid white;
+  text-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  animation-name: prono;
+  animation-duration: 6;
+  animation-delay: 3s;
+}
+.button3 {
   background-color: none;
   border: 2px solid white;
   text-color: white;
@@ -67,7 +95,15 @@ p.info {
   	to {top: 0px; opacity: 100;}
 }
 
-.button:hover {
-  background-color: rgb(29, 0, 54);
-  text-color: white;
+.button1:hover {
+  background-color: rgb(186, 219, 255);
+  text-color: rgb(0, 123, 255);
+}
+.button2:hover {
+  background-color: rgb(255, 249, 186);
+  text-color: rgb(255, 233, 0);
+}
+.button3:hover {
+  background-color: rgb(255, 189, 216);
+  text-color: rgb(255, 0, 104);
 }
