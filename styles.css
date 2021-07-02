@@ -1,6 +1,7 @@
 body {
 	background: linear-gradient(-45deg, skyblue, white, skyblue, white);
 	background-size: 400% 400%;
+	background-repeat: no-repeat;
 	animation: gradient 30s ease infinite;
 }
 
@@ -20,7 +21,7 @@ h1 {
   text-align:center;
   font-family: helvetica;
   font-size: 100%;
-  text-shadow: 4px 4px 2px skyblue;
+  text-shadow: 2px 4px 2px skyblue;
   animation-name: hea;
   animation-duration: 5s;
   animation-delay: 0s;
