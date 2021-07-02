@@ -47,7 +47,7 @@ p.info {
   animation-fill-mode: both; 
 }
 
-button1 {
+.button1 {
   background-color: none;
   border: 2px solid white;
   color: white;
@@ -61,7 +61,7 @@ button1 {
   animation-duration: 6;
   animation-delay: 3s;
 }
-button2 {
+.button2 {
   background-color: none;
   border: 2px solid white;
   color: white;
@@ -75,7 +75,7 @@ button2 {
   animation-duration: 6;
   animation-delay: 3s;
 }
-button3 {
+.button3 {
   background-color: none;
   border: 2px solid white;
   color: white;
