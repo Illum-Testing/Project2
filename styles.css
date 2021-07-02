@@ -10,9 +10,9 @@
 } 
 
 html {
-  background-image: linear-gradient(to bottom left, skyblue, white);
+  background-image: linear-gradient(to bottom right, skyblue, white);
   opacity 0.5;
-  background-size: cover;
+  background-size: 400% 400%;
   animation: b 15s ease infinite;
 }
 
