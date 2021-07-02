@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, skyblue, white, skyblue, white);
+	background: linear-gradient(-45deg, skyblue, purple, skyblue, purple);
 	background-size: 400% 400%;
 	background-repeat: no-repeat;
 	animation: gradient 30s ease infinite;
