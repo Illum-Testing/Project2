@@ -44,6 +44,23 @@ p.info {
   animation-name: infor;
   animation-duration: 5s;
   animation-delay: 2s;
-  animation-fill-mode: both;
-  
+  animation-fill-mode: both; 
+}
+
+.button {
+  background-color: none;
+  border: none;
+  text-color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  transition-duration: 0.4s;
+  border-radius: 12px
+}
+
+.button:hover {
+  background-color: black;
+  text-color: white;
 }
