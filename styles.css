@@ -1,6 +1,5 @@
 body {
   background-image: linear-gradient(to bottom left, skyblue, white);
-  background-opacity: 0.5;
 }
 
 h1 {
@@ -14,9 +13,10 @@ p.info {
   color: black;
   font-family: helvetica;
   font-size: 100%;
-  border-left: 3px ridge purple;
-  border-position: relative;
+  border-left: 3px ridge white;
   text-align:center;
+  margin-left: 250px;
+  margin-right: 250px;
   
 }
 
@@ -26,4 +26,6 @@ p.right {
   text-align:right;
   font-family: helvetica;
   font-size: 100%;
+  border: 2px inline white;
+  margin-left: 500px;
 }
