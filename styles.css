@@ -58,7 +58,7 @@ p.info {
   width: 10%;
   margin-left: 45%;
   margin-right: 45%;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 15px;
@@ -96,23 +96,23 @@ p.info {
 .button1:hover {
   background-color: rgb(186, 219, 255);
   color: rgb(0, 123, 255);
-  padding: 6px 10px;
+  padding: 10px 14px;
   border: 3px solid white;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .button2:hover {
   background-color: rgb(255, 249, 186);
   color: rgb(255, 233, 0);
-  padding: 6px 10px;
+  padding: 10px 14px;
   border: 3px solid white;
-  font-size: 18px;
+  font-size: 22px;
 } 
 
 .button3:hover {
   background-color: rgb(255, 189, 216);
   color: rgb(255, 0, 104);
-  padding: 6px 10px;
+  padding: 10px 14px;
   border: 3px solid white;
-  font-size: 18px;
+  font-size: 22px;
 }
