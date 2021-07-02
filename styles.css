@@ -1,10 +1,10 @@
 @keyframes b {
-  from {background-image: linear-gradient(to bottom left, skyblue, white);}
-  to {background-image: linear-gradient(to bottom left, white, skyblue);}
+  from {background-color: skyblue;}
+  to {background-color: white;}
 } 
 
 body {
-  background-image: linear-gradient(to bottom left, skyblue, white);
+  background-color: skyblue;
   opacity 0.5;
   animation-name: b;
   animation-duration: 10s;
@@ -24,11 +24,11 @@ h1 {
   text-shadow: 4px 4px 2px skyblue;
   animation-name: header;
   animation-duration: 5s;
-  animation-delay: 2s;
+  animation-delay: 0s;
   animation-fill-mode: both;
 }
 
-@keyframes info {
+@keyframes infor {
   from {opacity: 0; font-size: 80%;}
   to {opacity: 100; font-size: 100%;}
 }
@@ -41,8 +41,8 @@ p.info {
   text-align:left;
   margin-left: 40%;
   margin-right: 40%;
-  text-shadow: 2px 2px 1px skyblue
-  animation-name: info;
+  text-shadow: 2px 2px 1px skyblue;
+  animation-name: infor;
   animation-duration: 5s;
   animation-delay: 2s;
   animation-fill-mode: both;
