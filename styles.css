@@ -1,19 +1,13 @@
 body {
 	background: linear-gradient(-45deg, skyblue, white, skyblue, white);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 30s ease infinite;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
 }
 
 @keyframes hea {
@@ -21,16 +15,19 @@ body {
   to {font-size: 250%;}
 }
 
+@keyframes perm {
+	0% {font-size:250%;}
+	60% {font-size:270%;}
+	100% {font-size:250%;}
+	
 h1 {
   color: white;
   text-align:center;
   font-family: helvetica;
   font-size: 100%;
   text-shadow: 4px 4px 2px skyblue;
-  animation-name: hea;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-fill-mode: both;
+  animation: hea 5s ease-in 2s 1;
+	animation: perm 10s ease-in 7s infinite
 }
 
 @keyframes infor {
