@@ -19,7 +19,10 @@ p.info {
   font-family: helvetica;
   font-size: 100%;
   border-left: 3px ridge purple;
-  margin-left: 80px;
+  box-sizing: border-box;
+  margin-left: 400px;
+  width: 150px;
+  
 }
 
 p.right {
