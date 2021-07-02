@@ -8,7 +8,6 @@ h1 {
   text-align:center;
   font-family: helvetica;
   font-size: 250%;
-  border-bottom: 1px solid white;
 }
 
 p.info {
@@ -17,9 +16,7 @@ p.info {
   font-family: helvetica;
   font-size: 100%;
   border-left: 3px ridge purple;
-  box-sizing: border-box;
-  margin-left: 400px;
-  width: 150px;
+  border-position: relative;
   
 }
 
