@@ -57,9 +57,6 @@ p.info {
   font-size: 10px;
   transition-duration: 0.4s;
   border-radius: 12px;
-  animation-name: prono;
-  animation-duration: 6;
-  animation-delay: 3s;
 }
 .button2 {
   background-color: none;
@@ -71,9 +68,6 @@ p.info {
   font-size: 10px;
   transition-duration: 0.4s;
   border-radius: 12px;
-  animation-name: prono;
-  animation-duration: 6;
-  animation-delay: 3s;
 }
 .button3 {
   background-color: none;
@@ -85,14 +79,6 @@ p.info {
   font-size: 10px;
   transition-duration: 0.4s;
   border-radius: 12px;
-  animation-name: prono;
-  animation-duration: 6;
-  animation-delay: 3s;
-}
-
-@keyframes prono {
-	from {top: 90px; opacity: 0;}
-  	to {top: 0px; opacity: 100;}
 }
 
 .button1:hover {
