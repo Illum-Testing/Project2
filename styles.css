@@ -20,10 +20,17 @@ h1 {
   color: white;
   text-align:center;
   font-family: helvetica;
-  font-size: 250%;
+  font-size: 100%;
   text-shadow: 4px 4px 2px skyblue;
   animation-name: header;
   animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes info {
+  from {opacity: 0; font-size: 80%;}
+  to {opacity: 100; font-size: 100%;}
 }
 
 p.info {
@@ -34,6 +41,10 @@ p.info {
   text-align:left;
   margin-left: 40%;
   margin-right: 40%;
-  text-shadow: 4px 4px 2px skyblue
+  text-shadow: 2px 2px 1px skyblue
+  animation-name: info;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
   
 }
