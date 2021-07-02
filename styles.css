@@ -1,19 +1,19 @@
 @keyframes b {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
 } 
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
 } 
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
 } 
 
 html {
   background-image: linear-gradient(to bottom left, skyblue, white);
   opacity 0.5;
   background-size: cover;
-  animation: b 15s ease infinite
+  animation: b 15s ease infinite;
 }
 
 @keyframes header {
@@ -34,8 +34,8 @@ h1 {
 }
 
 @keyframes infor {
-  from {opacity: 0; font-size: 80%;}
-  to {opacity: 100; font-size: 100%;}
+  from {top: 30px; opacity: 0; font-size: 80%;}
+  to {top: 0px; opacity: 100; font-size: 100%;}
 }
 
 p.info {
