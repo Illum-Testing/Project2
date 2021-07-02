@@ -21,7 +21,10 @@ h1 {
   font-family: helvetica;
   font-size: 100%;
   text-shadow: 4px 4px 2px skyblue;
-  animation: hea 5s ease-in 2s 1;
+  animation-name: hea;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
 }
 
 @keyframes infor {
