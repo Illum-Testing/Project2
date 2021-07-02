@@ -18,6 +18,8 @@ p.info {
   text-align:center;
   font-family: helvetica;
   font-size: 100%;
+  border: 3px ridge purple;
+    opacity: 0.3;
 }
 
 p.right {
