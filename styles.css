@@ -3,12 +3,19 @@ body {
   opacity 0.5
 }
 
+@keyframes header {
+  from {font-size: 250%;}
+  to {font-size: 400%;}
+}
+
 h1 {
   color: white;
   text-align:center;
   font-family: helvetica;
   font-size: 250%;
-  text-shadow: 4px 4px 2px skyblue
+  text-shadow: 4px 4px 2px skyblue;
+  animation-name: header;
+  animation-duration: 5s;
 }
 
 p.info {
