@@ -16,16 +16,7 @@ p.info {
   font-size: 100%;
   border-left: 2px solid white;
   text-align:center;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 40%;
+  margin-right: 40%;
   
-}
-
-p.right {
-  margin: 0px;
-  color: white;
-  text-align:right;
-  font-family: helvetica;
-  font-size: 100%;
-  border: 2px solid white;
 }
