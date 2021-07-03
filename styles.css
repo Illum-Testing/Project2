@@ -120,7 +120,6 @@ from {font-size:130%; visibility:hidden; opacity:0;}
 to {font-size:100%; visibility:visible; opacity:100%;}
 }
 p.last {
-  position:fixed;
   color: white;
   font-family: helvetica;
   font-size: 60%;
@@ -131,6 +130,6 @@ p.last {
   animation-fill-mode: both; 
 }
 @keyframes ende {
-  from {top: 0px; opacity: 0;}
-  to {top: 180px; opacity: 100;}
+  from {top: 75%; opacity: 0;}
+  to {top: 90%; opacity: 100;}
 }
