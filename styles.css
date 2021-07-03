@@ -29,7 +29,7 @@ h1 {
 }
 
 @keyframes infor {
-  from {top: 60px; opacity: 0; font-size: 80%;}
+  from {top: -60px; opacity: 0; font-size: 80%;}
   to {top: 0px; opacity: 100; font-size: 100%;}
 }
 
@@ -120,16 +120,17 @@ from {font-size:130%; visibility:hidden; opacity:0;}
 to {font-size:100%; visibility:visible; opacity:100%;}
 }
 p.last {
+  position:fixed;
   color: white;
   font-family: helvetica;
   font-size: 60%;
   text-align:center;
-  animation-name: infor;
+  animation-name: ende;
   animation-duration: 6s;
   animation-delay: 0s;
   animation-fill-mode: both; 
 }
-@keyframes end {
-  from {top: 60px; opacity: 0;}
-  to {top: 0px; opacity: 100;}
+@keyframes ende {
+  from {top: 0px; opacity: 0;}
+  to {top: 180px; opacity: 100;}
 }
