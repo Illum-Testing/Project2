@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1>
-  Welcome to the sentence generator!
+  Welcome to the Pronoun-Tester!
 </h1>
 <p class="info">
   Please choose one of the given pronouns!
@@ -13,6 +13,7 @@
 <button class="button button1" onclick="GetValueHe();"> He/Him </button>
 <button class="button button2" onclick="GetValueThey();"> They/Them </button>
 <button class="button button3" onclick="GetValueHer();"> She/Her </button>
+<button class="button button4" onclick="GetValueXe();"> Xe/Xem </button>
 <script>
 function GetValueHe()
 {
@@ -34,6 +35,14 @@ function GetValueHer()
 {
     var myarray3= new Array("Oh, didn't you hear? She just got herself a new bike! A blue one at that!","Wow! Her outfit is stunning! She should really teach me how to dress!","Her sister wasn't nearly as nice as her, almost got my neck snapped!","She's been sitting there for a while now, should we ask her what she's doing?","Wish I was friends with her, she seems so cool and chill!","Hey! Why don't we grab some cake for her? It is her birthday, after all!","She went to the shop today.","Did you see her latest creation? It was awesome!","I really enjoyed spending time with her, her dog is so adorable!");
     var random = myarray3[Math.floor(Math.random() * myarray3.length)];
+    document.getElementById("result").innerHTML=random;
+}
+</script>
+<script>
+function GetValueXe()
+{
+    var myarray4= new Array("Oh, didn't you hear? Xe just got xemself a new bike! A blue one at that!","Wow! Xyr outfit is stunning! Xe should really teach me how to dress!","Xyr sister wasn't nearly as nice as xem, almost got my neck snapped!","Xe's been sitting there for a while now, should we ask xem what xe's doing?","Wish I was friends with xem, xe seems so cool and chill!","Hey! Why don't we grab some cake for xem? It is xyr birthday, after all!","Xe went to the shop today.","Did you see xyr latest creation? It was awesome!","I really enjoyed spending time with xem, xyr Please choose one of the gi dog is so adorable!");
+    var random = myarray4[Math.floor(Math.random() * myarray4.length)];
     document.getElementById("result").innerHTML=random;
 }
 </script>
