@@ -54,7 +54,7 @@ p.info {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 80%;
   width: 10%;
   margin-left: 45%;
   margin-right: 45%;
@@ -85,7 +85,7 @@ p.info {
   color: rgb(0, 123, 255);
   padding: 10px 12px;
   border: 3px solid white;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 .button2:hover {
@@ -93,7 +93,7 @@ p.info {
   color: rgb(255, 233, 0);
   padding: 10px 12px;
   border: 3px solid white;
-  font-size: 120%;
+  font-size: 100%;
 } 
 
 .button3:hover {
@@ -101,15 +101,15 @@ p.info {
   color: rgb(255, 0, 104);
   padding: 10px 12px;
   border: 3px solid white;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 .button4:hover {
   background-color: rgb(218, 255, 184);
-  color: rgb(87, 181, 0);
+  color: rgb(123, 255, 0);
   padding: 10px 12px;
   border: 3px solid white;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 p.output {
