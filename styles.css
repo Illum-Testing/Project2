@@ -119,3 +119,17 @@ p.output {
 from {font-size:130%; visibility:hidden; opacity:0;}
 to {font-size:100%; visibility:visible; opacity:100%;}
 }
+p.last {
+  color: white;
+  font-family: helvetica;
+  font-size: 60%;
+  text-align:center;
+  animation-name: infor;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-fill-mode: both; 
+}
+@keyframes end {
+  from {top: 60px; opacity: 0;}
+  to {top: 0px; opacity: 100;}
+}
