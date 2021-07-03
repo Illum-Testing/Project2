@@ -110,8 +110,8 @@ p.output {
   margin-left: 40%;
   margin-right: 40%;
   animation-name: out;
-  animation-duration: 6s;
-  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-delay: 0s;
   animation-fill-mode: both; 
 }
 @keyframes out {
