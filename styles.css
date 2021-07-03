@@ -131,6 +131,7 @@ p.last {
   animation-delay: 0s;
   animation-fill-mode: forwards; 
 }
+
 @keyframes ende {
   from {top: 80%; opacity: 0;}
   to {top: 90%; opacity: 100;}
