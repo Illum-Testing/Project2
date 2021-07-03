@@ -114,6 +114,10 @@ p.output {
   animation-delay: 2s;
   animation-fill-mode: both; 
 }
-@keyframes out;
-from {opacity:0%;}
-to {opacity:100%;}
+@keyframes out {
+from {font-size:130%;}
+to {font-size:100%;}
+}
+p.output.animated {
+	visibility: visible;
+}
